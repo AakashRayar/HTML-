@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>this is demo of table 4</title>
+	<style type="text/css">
+		html,body{
+			height: 100%;
+			width: 100%;
+			margin: 0px;
+		}
+		table{
+			width: 100%;
+			border: 1px solid black;
+			border-collapse: collapse;
+			
+		}
+		tr,th,td{
+			border: 1px solid black;
+			border-collapse: collapse;
+			
+		}
+		tr:nth-child(odd) {
+              background-color: #dddddd;
+        }
+		th{
+			color: white;
+			background-color: blue;
+		}
+		#id{
+		text-align: right;
+		}
+	</style>
+</head>
+<body>
+	<table>
+		<tr>
+			<th>Product</th>
+			<th>Price Per Unit</th>
+			<th>Quantity</th>
+			<th>Discount</th>
+			<th>Extended Amount</th>
+		</tr>
+		<tr>
+			<td>Analysis</td>
+			<td>850.00</td>
+			<td>30</td>
+			<td>0.00</td>
+			<td>25,500.00</td>
+		</tr>
+		<tr>
+			<td>Deployment</td>
+			<td>750.00</td>
+			<td>12.5</td>
+			<td>0.00</td>
+			<td>9,375.00</td>
+		<tr>
+			<td>Design&Development</td>
+			<td>850.00</td>
+			<td>100</td>
+			<td>5,500</td>
+			<td>79,500.00</td>
+		</tr>
+		<tr>
+			<td>Diagnostics</td>
+			<td>850.00</td>
+			<td>10</td>
+			<td>0.00</td>
+			<td>8,500.00</td>
+		</tr>
+		<tr>
+			<td>Project Management</td>
+			<td>650.00</td>
+			<td>38</td>
+			<td>0.00</td>
+			<td>24,700.00</td>
+		</tr>
+		<tr>
+			<td colspan="4" id="id">Detail Amount:</td>
+			<td>147,575.00</td>
+		</tr>
+		<tr>
+			<td colspan="4" id="id">Less Discount%:</td>
+			<td>2.00%</td>
+		</tr>
+		<tr>
+			<td colspan="4" id="id">Less Discount:</td>
+			<td>0.00</td>
+		</tr>
+		<tr>
+			<td colspan="4" id="id">Pre-Freight Amount:</td>
+			<td>144,623.50</td>
+		</tr>
+		<tr>
+			<td colspan="4" id="id">Freight Amount:</td>
+			<td>0.00</td>
+		</tr>
+		<tr>
+			<td colspan="4" id="id">Tax Amount</td>
+			<td>0.00</td>
+		</tr>
+		<tr>
+			<td colspan="4" id="id">Total Amount:</td>
+			<td>144,623.50</td>
+		</tr>
+	</table>
+
+</body>
+</html>
