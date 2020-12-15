@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>this is demo of form 3</title>
+	<style type="text/css">
+		html,body{
+		height: 100%;
+		width: 100%;
+		margin: 0px;
+		background-color: #dddddd;
+		}
+		#div{
+		height: 70%;
+		width: 40%;
+		margin: 20px;
+		background-color: white;
+		padding: 10px;
+		}
+		#hhh{
+		margin: 15px;
+		}
+		.color{
+		background-color: #dddddd;
+		}
+		#margin{
+		margin: 15px;
+		}
+		#center{
+			width: 100%;
+			height: 40%;
+		}
+		#left{
+			width: 50%;
+			height: 50%;
+			float: left;
+		}
+		#right{
+			width: 50%;
+			height: 50%;
+			float: right;
+		}
+		#review{
+			margin: 10px;
+		}
+		select{
+			width: 40%;
+		}
+	</style>
+</head>
+<body>
+	<div id="div">
+		<div id="center">
+		<h5 id="hhh">Creat task</h5>
+		<form id="margin">
+		<input type="text" name="Type" value="Type" size="65" class="color"><br><br>
+		<select id="Company" name="Company" value="Company" class="color">
+		<option>Company</option>
+		</select>
+		<select id="Opportunity" name="Opportunity" value="Opportunity" class="color">
+		<option>Opportunity</option>
+		</select><br><br>
+		<input type="text" name="Task name" value="Task name" size="65" class="color"><br><br>
+		<input type="text" name="cc" value="CC" size="65" class="color"><br><br>
+	</form>
+	</div>
+		<div id="left">
+		<form id="review">
+		<h6>Nature of request</h6>
+		<input type="checkbox" id="review" name="review">
+		<label>Ads review</label><br><br>
+		<input type="checkbox" id="review" name="review">
+		<label>Keywords review</label><br><br>
+		<input type="checkbox" id="review" name="review">
+		<label>Extensions review</label><br><br>
+	</form>
+</div>
+	<div id="right">
+		<form>
+			<h6>Current reviewable status</h6>
+		<input type="radio" id="Approved" name="Approved" value="Approved" class="right">
+		<label class="right">Approved</label><br><br>
+		<input type="radio" id="Not Approved" name="Not Approved" value="Not Approved" class="right">
+		<label class="right">Not Approved</label><br><br>
+		</form>
+	</div>
+	</div>
+</body>
+</html>
